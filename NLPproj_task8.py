@@ -16,8 +16,8 @@ def google_search(search_term, api_key, cse_id, **kwargs):
     res = service.cse().list(q=search_term, cx=cse_id, **kwargs).execute()
     return res
 
-my_api_key = 'AIzaSyBasIRbsCPuLYlecIRYoPXZzh7jWsHwt4g'
-my_cse_id = "0a95b4f690df8c3ef"
+my_api_key = '...'
+my_cse_id = "..."
 
 query12=query1+" "+query2
 query21=query2+" "+query1
